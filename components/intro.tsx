@@ -2,7 +2,7 @@
 
 import { useActiveSectionContext } from "@/context/active-section-context";
 import { useSectionInView } from "@/lib/hooks";
-import pic from '@/public/profile-pic.jpeg';
+import pic from "@/public/profile-pic.jpeg";
 import { motion } from "framer-motion";
 import Image from "next/image";
 import Link from "next/link";
@@ -32,12 +32,13 @@ export default function Intro() {
           >
             <Image
               src={pic}
-              alt="Adeel Ahmad Pic"
+              alt="Junaid Ahmed Pic"
               width="300"
               height="300"
               quality="100"
               priority={true}
-              className="h-44 w-44 rounded-full object-cover border-[0.35rem] border-white shadow-xl"
+              className="h-44 w-44 rounded-full object-cover object-center border-[0.35rem] border-white shadow-xl"
+              style={{ objectPosition: "center top" }}
             />
           </motion.div>
 
@@ -62,9 +63,9 @@ export default function Intro() {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <span className="font-bold">Hello, I'm Adeel.</span> I'm a{" "}
+        <span className="font-bold">Hello, I'm Junaid.</span> I'm a{" "}
         <span className="font-bold">full-stack developer</span> with{" "}
-        <span className="font-bold">3+ years</span> of experience. I enjoy
+        <span className="font-bold">2+ years</span> of experience. I enjoy
         building <span className="italic">sites & apps</span>. My focus is{" "}
         <span className="underline">Next.js and Gen AI</span>.
       </motion.h1>
@@ -91,15 +92,16 @@ export default function Intro() {
 
         <a
           className="group bg-[#6FDA44] text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition"
-          href="https://www.upwork.com/freelancers/~018ad37dbf86a6b06e"
+          href="https://www.upwork.com/freelancers/~01362b90c331cfb115?mp_source=share"
           target="_blank"
         >
-          Hire me on Upwork <Image src={UpworkLogo} alt="Upwork Logo" width={20} height={20} />
+          Hire me on Upwork{" "}
+          <Image src={UpworkLogo} alt="Upwork Logo" width={20} height={20} />
         </a>
 
         <a
           className="bg-white p-4 text-gray-700 hover:text-gray-950 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
-          href="https://www.linkedin.com/in/devadeelahmad/"
+          href="https://www.linkedin.com/in/junaid-ahmed-088299216/"
           target="_blank"
         >
           <BsLinkedin />
@@ -107,7 +109,7 @@ export default function Intro() {
 
         <a
           className="bg-white p-4 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
-          href="https://github.com/DevAdeelAhmad"
+          href="https://github.com/Junaidahmed111"
           target="_blank"
         >
           <FaGithubSquare />

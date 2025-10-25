@@ -1,14 +1,14 @@
 import printing from "@/public/3d-printing.webp";
 import bOne from "@/public/B-one.png";
-import dbit from "@/public/DBIT - Mining Platform.png";
+import plantPerfect from "@/public/plant-perfect.png";
 import stupidMonkeys from "@/public/StupidMonkeys.png";
-import empyreal from "@/public/empyreal_attire.webp";
+import tahirElectronics from "@/public/tahir-electronics.png";
 import hope from "@/public/hope-medical.webp";
-import linden from "@/public/linden1.png";
+import dadigram from "@/public/dadigram.png";
 import maxvid from "@/public/maxvid.webp";
-import mentalHq from "@/public/mentalHq.png";
-import nike from "@/public/nike.png";
-import autoOne from "@/public/AutoOne.png";
+import adminPanel from "@/public/admin-panel.png";
+import rootedFlavors from "@/public/rooted-flavors.png";
+import mechProtocol from "@/public/mech-protocol.png";
 import renaissance from "@/public/renaissance-art.webp";
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
@@ -46,17 +46,17 @@ export const experiencesData = [
     title: "Software Engineer",
     location: "Greyfibre · Remote",
     description:
-      "I am leading the frontend development at Greyfibre, working on a SaaS application. My role involves architecting and developing the frontend using Next.js and TypeScript, while closely collaborating with backend engineers working with Django and Python.",
+      "I was leading the frontend development at Greyfibre, working on a SaaS application. My role involves architecting and developing the frontend using Next.js and TypeScript, while closely collaborating with backend engineers working with Django and Python.",
     icon: React.createElement(FaReact),
-    date: "Oct 2024 - Present",
+    date: "Juy 2024 - Oct 2025",
   },
   {
     title: "Software Engineer",
-    location: "CRAFTR · Netherlands · Remote",
+    location: "GSOFT · Pakistan",
     description:
-      "As a Software Engineer at CRAFTR, I contributed to the development of cutting-edge AI SaaS applications. I leveraged my expertise in Next.js and TypeScript to build scalable and efficient software solutions.",
+      "As a Software Engineer at GSOFT, I contributed to the development of cutting-edge AI SaaS applications. I leveraged my expertise in Next.js, React Native and TypeScript to build scalable and efficient software solutions.",
     icon: React.createElement(CgWorkAlt),
-    date: "Feb 2024 - Sep 2024",
+    date: "Sep 2024 - Present",
   },
   {
     title: "Full Stack Developer",
@@ -72,8 +72,8 @@ export const experiencesData = [
     description:
       "I worked as a front-end developer for 6 months at Fiverr. But it was affecting my studies so I stopped after working for 6 months. Some of the projects from my Fiverr journey are at the last in the Projects Section.",
     icon: React.createElement(CgWorkAlt),
-    date: "2020 - 2021",
-  }
+    date: "2022 - 2023",
+  },
 ] as const;
 
 export const projectsData = [
@@ -94,12 +94,12 @@ export const projectsData = [
     link: "https://stupid-monkeys.vercel.app/",
   },
   {
-    title: "Nike Clone",
+    title: "Rooted Flavors",
     description:
-      "The client wanted the clone of Original Nike Website. I have worked on the Front End Only in a team.",
-    tags: ["NextJs", "ReactJs", "TypeScript", "TailwindCSS", "Shadcn/ui"],
-    imageUrl: nike,
-    link: "https://nike-adeelahmad.vercel.app/",
+      "An e-commerce website for culturally rooted herbal remedies and wellness solutions. Features personalized health assessments with AI-powered product recommendations.",
+    tags: ["NextJs", "ReactJs", "TypeScript", "TailwindCSS", "AI Integration"],
+    imageUrl: rootedFlavors,
+    link: "https://rootedflavors.com/",
   },
   {
     title: "B-one Consulting",
@@ -110,44 +110,50 @@ export const projectsData = [
     link: "https://b-one-consulting.vercel.app/",
   },
   {
-    title: "Auto-one",
+    title: "MECH Protocol",
     description:
-      "This is a website I built for my local client. He has a car dealership app and he wanted a showcase website according to the Figma Design. ",
-    tags: ["ReactJs", "Framer Motion", "TailwindCSS", "JavaScript"],
-    imageUrl: autoOne,
-    link: "https://auto-one-dev.vercel.app/",
+      "A decentralized platform for autonomous robotic economies. Features task payments, simulated machine hours, and M2M microtransactions for robotic networks.",
+    tags: ["NextJs", "ReactJs", "TypeScript", "TailwindCSS", "Web3"],
+    imageUrl: mechProtocol,
+    link: "https://www.mechprotocol.com/",
   },
   {
-    title: "DBIT - Mining Platform",
+    title: "Plant Perfect",
     description:
-      "This is a mining platform I have created for my Fiverr Client. I have done the Front-End Part Only.",
-    tags: ["NextJs", "React", "TailwindCSS", "TypeScript"],
-    imageUrl: dbit,
-    link: "https://dbit-devadeelahmad.vercel.app/",
+      "An e-commerce store specializing in seeds, mushroom growing kits, soil enhancers, and grow lights. A complete shopping experience for gardening enthusiasts.",
+    tags: ["NextJs", "React", "TailwindCSS", "TypeScript", "E-commerce"],
+    imageUrl: plantPerfect,
+    link: "http://fwogg0woo8osc0gcgcosg4wc.217.196.51.116.sslip.io/",
   },
   {
-    title: "Empyreal Attire",
+    title: "Tahir Electronics",
     description:
-      "I am currently working on this project as a full-stack developer. It is an Online Leather Store. It also has an admin dashboard.",
-    tags: ["NextJs", "React", "MongoDB", "TailwindCSS", "TypeScript", "AWS S3"],
-    imageUrl: empyreal,
-    link: "https://empyreal-attire.vercel.app/",
+      "An e-commerce platform for electronics and home appliances in Pakistan. Features fans, cables, cameras, solar panels, and trusted brands like Royal Fans and Wahid Fans.",
+    tags: ["NextJs", "React", "TailwindCSS", "TypeScript", "E-commerce"],
+    imageUrl: tahirElectronics,
+    link: "https://www.tahirelectronics.pk/",
   },
   {
-    title: "Mental HQ",
+    title: "E-commerce Multi-tenant Dashboard",
     description:
-      "I developed this landing page for my client in just one day, according to the design.",
-    tags: ["NextJs", "Typescript", "TailwindCSS", "Framer Motion"],
-    imageUrl: mentalHq,
-    link: "https://mental-hq.vercel.app/",
+      "A powerful multi-tenant admin dashboard serving multiple e-commerce stores through a single customized admin panel.",
+    tags: [
+      "NextJs",
+      "TypeScript",
+      "TailwindCSS",
+      "Multi-tenant",
+      "Admin Panel",
+    ],
+    imageUrl: adminPanel,
+    link: "http://fwogg0woo8osc0gcgcosg4wc.217.196.51.116.sslip.io/admin",
   },
   {
-    title: "Linden Homes",
+    title: "Dadigram",
     description:
-      "I developed this landing page for my client in just one day, according to the design.",
-    tags: ["NextJs", "Typescript", "TailwindCSS", "Framer Motion"],
-    imageUrl: linden,
-    link: "https://linden-homes.vercel.app/",
+      "An Instagram growth platform powered by AI and real-human experts. Features automated follower growth, no bots, guaranteed organic growth.",
+    tags: ["NextJs", "TypeScript", "TailwindCSS", "AI", "Growth Platform"],
+    imageUrl: dadigram,
+    link: "https://dadigram.com/",
   },
   {
     title: "Renaissance Art",
@@ -214,5 +220,5 @@ export const skillsData = [
   "C++",
   "C#",
   "Java",
-  "GO"
+  "GO",
 ] as const;

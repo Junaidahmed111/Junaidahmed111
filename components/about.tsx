@@ -21,17 +21,19 @@ export default function About() {
       <p className="mb-3">
         I am a graduate with a degree in{" "}
         <span className="font-medium">BS Software Engineering</span> from{" "}
-        <span className="font-medium">COMSATS</span>. I am currently working as a{" "}
-        <span className="font-medium">Frontend Team Lead</span> at Greyfibre, while also{" "}
+        <span className="font-medium">COMSATS</span>. I am currently working as
+        a <span className="font-medium">Full Stack Developer</span> at Global
+        Software Consulting, while also{" "}
         <span className="font-medium">freelancing on Upwork</span>.{" "}
         <span className="italic">My favorite part of programming</span> is the
         problem-solving aspect. I <span className="underline">love</span> the
         feeling of finally figuring out a solution to a problem. My core stack
         is{" "}
         <span className="font-medium">
-          Next.js, TypeScript, TailwindCSS, and React Native</span>
-        . I am also familiar with Python, Django, and PostgreSQL. I am always looking to
-        learn new technologies and expand my skillset.
+          Next.js, TypeScript, TailwindCSS, and React Native
+        </span>
+        . I am also familiar with Python, Django, and PostgreSQL. I am always
+        looking to learn new technologies and expand my skillset.
       </p>
 
       <p>
